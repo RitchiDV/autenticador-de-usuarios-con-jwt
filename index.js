@@ -6,7 +6,7 @@ const expressJwt = require("express-jwt");
 const User = require("./user");
 
 mongoose.connect(
-  "mongodb+srv://Hakdigital98:Adivinala123@ricardi.j4xrm.mongodb.net/auth?retryWrites=true&w=majority&appName=Ricardi"
+  "mongodb+srv:conecta tu mongo atlas"
 );
 const app = express();
 
